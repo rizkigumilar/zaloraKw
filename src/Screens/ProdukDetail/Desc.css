@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.desc
+{
+    top: 71%;
+    left: 59%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    float: left;
+}
+.brand
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 19px;
+}
+.type
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.price
+{
+    padding-top: 15px;
+    font-size: 14px;
+}
+.material
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+.list
+{
+    padding-top: 35px;
+    padding-left: 15px;
+}
+.refund
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-top: 55px;
+}
+.send
+{
+    padding: 6px 15px;
+    background-color: lightseagreen;
+    border: 0;
+    cursor: pointer;
+    font-size: 8pt;
+    color: white;
+    outline: none;
+    float: right;
+    margin-right: 1px;
+    margin-top: -5px;
+    font-weight: bold;
+} 
+.seller
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.diliver
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+.time
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.check
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+#search
+{
+    padding: 2px 5px;
+    border: 1;
+    font-size: 15pt;
+    outline: none;
+    overflow: hidden;
+}
+#search::placeholder {
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 15px;
+  }

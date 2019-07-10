@@ -1,5 +1,6 @@
 import React from 'react'
 import './foto.css'
+import Deskripsi from './Desc'
 
 function myFunction (smallimg) {
   var fullimg = document.getElementById('imageBox')
@@ -18,6 +19,9 @@ export default function foto () {
 
       <div className='img-container'>
         <img id={'imageBox'} src='https://i.pinimg.com/564x/89/ad/88/89ad88465871a75d0fbe0d4e5c89f5bd.jpg' alt='jihyo1' />
+      </div>
+      <div>
+        <Deskripsi />
       </div>
     </div>
   )

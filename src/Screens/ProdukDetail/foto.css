@@ -1,8 +1,4 @@
-*
-{
-    margin: 0;
-    padding: 0;
-}
+
 .product-small img
 {
     height: 60px;
@@ -10,7 +6,7 @@
     cursor: pointer;
     display: block;
     opacity: .6;
-    border: 1px solid silver;
+    border: 0px solid silver;
 }
 .product-small img:hover
 {
@@ -19,18 +15,20 @@
 .product-small
 {
     float: left;
+    padding-left: 139px;
+    padding-top: 25px;
 }
 .product
 {
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%,-50%);
-    position: absolute;
+    top: 51%;
+    left: 26%;
+    float: left;
 }
 .img-container img
 {
-    height: 570px;
-    border: 1px solid silver;
+    height: 550px;
+    border: 0px solid silver;
+    padding-top: 25px;
 }
 .img-container
 {
