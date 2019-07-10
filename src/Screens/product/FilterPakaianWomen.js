@@ -6,6 +6,9 @@ import Data from '../../data/dataWomen'
 
 function listWomen() {
     let data = Data
+    let cari = data.filter(item => {
+        return item.category === 'pakaian';
+    });
     console.log(data)
 
     return (
@@ -13,7 +16,7 @@ function listWomen() {
             <div className="list">
                 <div className="list-item">
                     {
-                        data.map(
+                        cari.map(
                             item => {
                                 return (
                                     <Link to={`/women/detail/${item.id}`}>
@@ -40,7 +43,7 @@ function listWomen() {
                     </li>
 
                     <li style={{ paddingTop: '20px' }}>
-                        <a href='/women/sepatu' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Sepatu</a>
+                        <a href='women/sepatu' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Sepatu</a>
                     </li>
 
                     <li style={{ paddingTop: '20px' }}>

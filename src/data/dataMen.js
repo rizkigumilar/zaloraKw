@@ -6,7 +6,7 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/VqNIprAF4HxZLVp7vX9UFJzFhG8=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/osella-2936-9373271-2.jpg",
         productPrice: "Rp 900.000",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
+        category: "pakaian"
     },
     {
         id: "2",
@@ -15,7 +15,7 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/qMCI0PLNUh_l7S_qiug7wbwvljI=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/osella-2840-6559871-4.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
+        category: "pakaian"
     },
     {
         id: "3",
@@ -24,7 +24,7 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/8KkhwMxy-Z6n8-hR5s4uyCNWWMw=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/osella-3660-9473271-1.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
+        category: "pakaian"
     },
     {
         id: "4",
@@ -33,7 +33,7 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/VqNIprAF4HxZLVp7vX9UFJzFhG8=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/osella-2936-9373271-2.jpg",
         productPrice: "Rp 900.000",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
+        category: "pakaian"
     },
     {
         id: "5",
@@ -42,7 +42,7 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/qMCI0PLNUh_l7S_qiug7wbwvljI=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/osella-2840-6559871-4.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
+        category: "pakaian"
     },
     {
         id: "6",
@@ -51,7 +51,7 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/8KkhwMxy-Z6n8-hR5s4uyCNWWMw=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/osella-3660-9473271-1.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
+        category: "pakaian"
     },
     {
         id: "7",
@@ -60,7 +60,7 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/rohDbtNbzylcd2mQZy_TLKMDZgc=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/homyped-1592-4633281-2.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
+        category: "sepatu"
     },
     {
         id: "8",
@@ -69,7 +69,7 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/dhWS6LalAOBbN9kb0eI4ZnSRx2k=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/homyped-7807-7836571-2.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
+        category: "sepatu"
     },
     {
         id: "9",
@@ -78,7 +78,7 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/ul5TpRTNBD_1wbSlNi4SaTYiTh0=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/cde-1824-9895161-4.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
+        category: "sepatu"
     },
     {
         id: "10",
@@ -87,7 +87,7 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/rohDbtNbzylcd2mQZy_TLKMDZgc=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/homyped-1592-4633281-2.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
+        category: "sepatu"
     },
     {
         id: "11",
@@ -96,7 +96,7 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/dhWS6LalAOBbN9kb0eI4ZnSRx2k=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/homyped-7807-7836571-2.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
+        category: "sepatu"
     },
     {
         id: "12",
@@ -105,8 +105,8 @@ const data = [
         image_url2: "https://dynamic.zacdn.com/ul5TpRTNBD_1wbSlNi4SaTYiTh0=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/cde-1824-9895161-4.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
-        category: "pria"
-    }   
+        category: "sepatu"
+    }
 ]
 
 export default data

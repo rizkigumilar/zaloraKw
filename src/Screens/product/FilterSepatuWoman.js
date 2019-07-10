@@ -6,6 +6,9 @@ import Data from '../../data/dataWomen'
 
 function listWomen() {
     let data = Data
+    let cari = data.filter(item => {
+        return item.category === 'sepatu';
+    });
     console.log(data)
 
     return (
@@ -13,7 +16,7 @@ function listWomen() {
             <div className="list">
                 <div className="list-item">
                     {
-                        data.map(
+                        cari.map(
                             item => {
                                 return (
                                     <Link to={`/women/detail/${item.id}`}>
@@ -33,21 +36,21 @@ function listWomen() {
                 </div>
             </div>
             <div className="sidebar">
-                <h4 style={{ textAlign: 'center' }}>KATEGORI</h4>
-                <ul style={{ listStyleType: 'none', }}>
-                    <li style={{ paddingTop: '40px' }}>
-                        <a href='/women/pakaian' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Pakaian</a>
-                    </li>
+            <h4 style={{ textAlign: 'center' }}>KATEGORI</h4>
+            <ul style={{ listStyleType: 'none', }}>
+                <li style={{ paddingTop: '40px' }}>
+                    <a href='/women/pakaian' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Pakaian</a>
+                </li>
 
-                    <li style={{ paddingTop: '20px' }}>
-                        <a href='/women/sepatu' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Sepatu</a>
-                    </li>
+                <li style={{ paddingTop: '20px' }}>
+                    <a href='/women/sepatu' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Sepatu</a>
+                </li>
 
-                    <li style={{ paddingTop: '20px' }}>
-                        <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Tas</a>
-                    </li>
-                </ul>
-            </div>
+                <li style={{ paddingTop: '20px' }}>
+                    <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Tas</a>
+                </li>
+            </ul>
+        </div>
         </div>
     )
 }
