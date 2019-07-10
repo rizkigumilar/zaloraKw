@@ -1,152 +1,88 @@
 .list {
-    margin-top: 700px;
-    position: relative;
-    height: 1000px;
-    width: 100%;
-  }
-  
-  .list-item {
-    margin-top: 100px;
-    width: 75%;
-    height: 1000px;
-    position: absolute;
-    left: 62%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-  }
-  
-  .item {
-    width: 236px;
-    height: 450px;
-    box-shadow: 0px 0px 10px #aaa;
-    border-radius: 0px;
-    float: left;
-    margin: 5px 20px;
-    cursor: pointer;
-    outline: none;
-    margin-bottom: 50px;
-    box-sizing: border-box;
-  }
-  
-  .item img {
-    width: 100%;
-    height: 300px;
-    border-radius: 0px;
-    background: black;
-    object-fit: inherit;
-    object-position: 50% 50%;
-  }
-  
-  .item div {
-    width: 100%;
-    padding: 0px 10px;
-    box-sizing: border-box;
-  }
-  
-  .barang{
-    margin: 0;
-    width: 30%;
-    font-size: 15pt;
-    color: black;
-  }
-  .desc{
-    margin-top: 30px;
-    width: 80%;
-    font-size: 10pt;
-    color: black;
-    font-weight: lighter;
-  }
-  .harga{
-    margin-top: 30px;
-    margin-left: 120px;
-    width: 50%;
-    font-size: 10pt;
-    color: black;
-    font-weight: bolder;
-  }
-  /* Customize the label (the container) */
-.sidebar{
-    display: block;
-    height: 150px;
-    width: 203px;
-    left: 140px;
-    margin-block-start: -894px;
-    position: relative;
-    background-color: #ebebe0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+  margin-top: 25px;
+  position: relative;
+  height: 1000px;
+  width: 100%;
 }
-  .container {
-    display: block;
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 13px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 12px;
-    letter-spacing: .05em;
-    line-height: 1.6;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  /* Hide the browser's default checkbox */
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-    
-  }
-  
-  /* Create a custom checkbox */
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0px;
-    height: 20px;
-    width: 20px;
-    background-color:white;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-  
-  /* When the checkbox is checked, add a black background */
-  .container input:checked ~ .checkmark {
-    background-color: black;
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  
-  /* Show the checkmark when checked */
-  .container input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  /* Style the checkmark/indicator */
-  .container .checkmark:after {
-    left: 3px;
-    top: 2px;
-    width: 5px;
-    height: 10px;
-    border:solid white;
-    border-width: 0 2px 2px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
+
+.list-item {
+  margin-top: 100px;
+  width: 75%;
+  height: 1000px;
+  position: absolute;
+  left: 62%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.item {
+  width: 236px;
+  height: 450px;
+  box-shadow: 0px 0px 10px #aaa;
+  border-radius: 0px;
+  float: left;
+  margin: 5px 20px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.item img {
+  width: 100%;
+  height: 300px;
+  border-radius: 0px;
+  background: black;
+  object-fit: inherit;
+  object-position: 50% 50%;
+}
+
+.item div {
+  width: 100%;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.barang {
+  margin: 0;
+  width: 30%;
+  font-size: 15pt;
+  color: black;
+}
+
+.desc {
+  margin-top: 30px;
+  width: 80%;
+  font-size: 10pt;
+  color: black;
+  font-weight: lighter;
+}
+
+.harga {
+  margin-top: 30px;
+  margin-left: 120px;
+  width: 50%;
+  font-size: 10pt;
+  color: black;
+  font-weight: bolder;
+}
+
+/* Customize the label (the container) */
+.sidebar {
+  display: block;
+  height: 450px;
+  width: 203px;
+  left: 140px;
+  margin-block-start: -894px;
+  position: relative;
+  background-color: #ebebe0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list-cat {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration-color: none;
+}

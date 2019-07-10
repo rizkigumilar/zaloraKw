@@ -33,22 +33,20 @@ function listWomen() {
                 </div>
             </div>
             <div className="sidebar">
-            <h4>KATEGORI</h4>
-                <label className="container">Pakaian
-                    <input type="checkbox" checked="checked" />
-                    <span className="checkmark"></span>
-                </label>
+                <h4>KATEGORI</h4>
+                <ul style={{ listStyleType: 'none' }}>
+                    <li>
+                        <a href='#' className='lis-cat'>Pakaian</a>
+                    </li>
 
-                <label className="container">Sepatu
-                    <input type="checkbox" />
-                    <span className="checkmark"></span>
-                </label>
+                    <li >
+                        <a href='#'>Sepatu</a>
+                    </li>
 
-                <label className="container">Tas
-                    <input type="checkbox" />
-                    <span className="checkmark"></span>
-                </label>
-
+                    <li >
+                        <a href='#'>Tas</a>
+                    </li>
+                </ul>
             </div>
         </div>
     )
