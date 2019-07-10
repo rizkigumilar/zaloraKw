@@ -16,7 +16,7 @@ function listWomen() {
                         data.map(
                             item => {
                                 return (
-                                    <Link to={`/detail/${item.id}`}>
+                                    <Link to={`/women/detail/${item.id}`}>
                                         <div className="item" id="items" productid={item.id}>
                                             <img src={item.image_url} alt="gambar" />
                                             <div>

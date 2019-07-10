@@ -22,7 +22,8 @@ class Routing extends Component {
                 <Route exact path='/' component={Trendings} />
                 <Route exact path='/' component={Footer} />
                 <Route exact path='/men' component={listmen} />
-                <Route exact path='/women' component={listwomen} />
+                <Route exact path='/women/' component={listwomen} />
+                <Route exact path='/women/detail/:id' component={ProdukDetail} />
                 <Route path='/profile' component={Profile}/>
 
             </Router>
