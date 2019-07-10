@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Head from '../Components/HomePage/Zalora';
 import Profile from '../Screens/User/user'
@@ -12,6 +12,10 @@ import BestSeller from '../Components/HomePage/bestSeller'
 import Highlight from '../Components/HomePage/highlight'
 import Trendings from '../Components/HomePage/nowTrendings'
 import Footer from '../Components/HomePage/footer'
+import catlistwomen from '../Screens/product/FilterPakaianWomen'
+import catlistwomen2 from '../Screens/product/FilterSepatuWoman'
+import catlistmen from '../Screens/product/FilterPakaianPria'
+import catlistmen2 from '../Screens/product/FilterSepatuPria'
 class Routing extends Component {
     render() {
         return (
@@ -25,11 +29,15 @@ class Routing extends Component {
                 <Route exact path='/' component={Footer} />
                 <Route exact path='/men' component={listmen} />
                 <Route exact path='/women/' component={listwomen} />
+                <Route exact path='/women/pakaian' component={catlistwomen} />
+                <Route exact path='/women/sepatu' component={catlistwomen2} />
+                <Route exact path='/men/pakaian' component={catlistmen} />
+                <Route exact path='/men/sepatu' component={catlistmen2} />
                 <Route exact path='/women/detail/:id' component={ProdukDetail} />
-                <Route path='/profile' component={Profile}/>
-                <Route exact path='/profile' component={Akun}/>
-                <Route path='/profile/akun' component={Akun}/>                
-                <Route path='/profile/maintanance' component={Maintanance}/>
+                <Route path='/profile' component={Profile} />
+                <Route exact path='/profile' component={Akun} />
+                <Route path='/profile/akun' component={Akun} />
+                <Route path='/profile/maintanance' component={Maintanance} />
             </Router>
         )
     }
