@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Head from '../Components/HomePage/Zalora';
 import Profile from '../Screens/User/user'
+import Akun from '../Screens/User/akun'
+import Maintanance from '../Screens/User/Maintanace'
 import ProdukDetail from '../Screens/ProdukDetail/foto'
 import listwomen from '../Screens/product/womenProduct'
 import listmen from '../Screens/product/MensProduct'
@@ -25,7 +27,9 @@ class Routing extends Component {
                 <Route exact path='/women/' component={listwomen} />
                 <Route exact path='/women/detail/:id' component={ProdukDetail} />
                 <Route path='/profile' component={Profile}/>
-
+                <Route exact path='/profile' component={Akun}/>
+                <Route path='/profile/akun' component={Akun}/>                
+                <Route path='/profile/maintanance' component={Maintanance}/>
             </Router>
         )
     }
