@@ -43,7 +43,7 @@ function listWomen() {
                     </li>
 
                     <li style={{ paddingTop: '20px' }}>
-                        <a href='women/sepatu' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Sepatu</a>
+                        <a href='/women/sepatu' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Sepatu</a>
                     </li>
 
                     <li style={{ paddingTop: '20px' }}>
