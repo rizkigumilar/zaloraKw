@@ -8,8 +8,8 @@ const data = [
     image_url3: 'https://i.pinimg.com/564x/96/22/cc/9622cc726cb9d32360b52af661a5265f.jpg',
     image_url4: 'https://i.pinimg.com/564x/8a/63/55/8a63555be133ca039b2b0f4bfa4b5cc2.jpg',
     productPrice: 'Rp 400.000',
-    description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita',
+    category: 'pakaian',
+    cat:'wanita',
     brand: 'Vogue',
     type: 'Oversize Black-Jacket',
     price: 400000,
@@ -27,8 +27,9 @@ const data = [
     image_url: 'https://dynamic.zacdn.com/juK3GMj35N41sFQoveidLojmGiU=/fit-in/236x345/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-7972-4642261-1.jpg',
     image_url2: 'https://dynamic.zacdn.com/0DQB1hv1nMeR4syR3UD26aKWOjA=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-7972-4642261-2.jpg',
     productPrice: 'Rp 295.000',
-    description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita'
+    // description: `Lorem ipsum dolor sit amet`,
+    category: 'pakaian',
+    cat:'wanita'
 
   },
   {
@@ -38,7 +39,8 @@ const data = [
     image_url2: 'https://dynamic.zacdn.com/0mepF5lG9mlb171eM0vP72C9wFE=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-8601-0632261-4.jpg',
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita'
+    category: 'pakaian',
+    cat:'wanita'
 
   },
   {
@@ -48,7 +50,8 @@ const data = [
     image_url2: 'https://dynamic.zacdn.com/HpZrI00XMFDji6-4VOkPFOc32r8=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/bodytalk-4163-5817591-1.jpg',
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita'
+    category: 'pakaian',
+    cat:'wanita'
 
   },
   {
@@ -58,7 +61,8 @@ const data = [
     image_url2: 'https://dynamic.zacdn.com/0DQB1hv1nMeR4syR3UD26aKWOjA=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-7972-4642261-2.jpg',
     productPrice: 'Rp 295.000',
     description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita'
+    category: 'pakaian',
+    cat:'wanita'
 
   },
   {
@@ -68,7 +72,8 @@ const data = [
     image_url2: 'https://dynamic.zacdn.com/0mepF5lG9mlb171eM0vP72C9wFE=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-8601-0632261-4.jpg',
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita'
+    category: 'pakaian',
+    cat:'wanita'
 
   },
   {
@@ -79,7 +84,8 @@ const data = [
     image_url3: 'https://dynamic.zacdn.com/9SgLK1K5HDvn3Okux1jyVcvdeck=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/pavillion-9130-7882461-4.jpg',
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita'
+    category: 'sepatu',
+    cat:'wanita'
   },
   {
     id: '8',
@@ -88,7 +94,8 @@ const data = [
     image_url2: 'https://dynamic.zacdn.com/IYuSdReLcnLJLHUYQvtM1Zub-Dk=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/pavillion-3710-8882461-2.jpg',
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita'
+    category: 'sepatu',
+    cat:'wanita'
   },
   {
     id: '9',
@@ -97,7 +104,8 @@ const data = [
     image_url2: 'https://dynamic.zacdn.com/OoY9uGh_KoZWnKO4I6jJ9UTCNz0=/fit-in/236x345/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-3157-7946341-4.jpg',
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita'
+    category: 'sepatu',
+    cat:'wanita'
   },
   {
     id: '10',
@@ -107,7 +115,8 @@ const data = [
     image_url3: 'https://dynamic.zacdn.com/9SgLK1K5HDvn3Okux1jyVcvdeck=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/pavillion-9130-7882461-4.jpg',
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita'
+    category: 'sepatu',
+    cat:'wanita'
   },
   {
     id: '11',
@@ -116,7 +125,8 @@ const data = [
     image_url2: 'https://dynamic.zacdn.com/IYuSdReLcnLJLHUYQvtM1Zub-Dk=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/pavillion-3710-8882461-2.jpg',
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita'
+    category: 'sepatu',
+    cat:'wanita'
   },
   {
     id: '12',
@@ -125,7 +135,8 @@ const data = [
     image_url2: 'https://dynamic.zacdn.com/OoY9uGh_KoZWnKO4I6jJ9UTCNz0=/fit-in/236x345/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-3157-7946341-4.jpg',
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
-    category: 'wanita'
+    category: 'sepatu',
+    cat:'wanita'
   }
 
 ]

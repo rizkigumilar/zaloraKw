@@ -17,6 +17,7 @@ import catlistwomen from '../Screens/product/FilterPakaianWomen'
 import catlistwomen2 from '../Screens/product/FilterSepatuWoman'
 import catlistmen from '../Screens/product/FilterPakaianPria'
 import catlistmen2 from '../Screens/product/FilterSepatuPria'
+import cart from '../Screens/Cart/Cart'
 
 class Routing extends Component {
   render () {
@@ -36,6 +37,7 @@ class Routing extends Component {
                 <Route exact path='/men/sepatu' component={catlistmen2} />
                 <Route exact path='/men/detail/:id' component={ProdukDetail} />
                 <Route exact path='/women/detail/:id' component={ProdukDetailP} />
+                <Route exact path='/checkout' component={cart} />
                 <Route path='/profile' component={Profile} />
                 <Route exact path='/profile' component={Akun} />
                 <Route path='/profile/akun' component={Akun} />
