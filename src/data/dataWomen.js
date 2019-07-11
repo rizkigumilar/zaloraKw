@@ -31,7 +31,16 @@ const data = [
     productPrice: 'Rp 295.000',
     // description: `Lorem ipsum dolor sit amet`,
     category: 'pakaian',
-    cat:'wanita'
+    cat:'wanita',
+    brand: 'Vogue',
+    type: 'Oversize Black-Jacket',
+    price: 400000,
+    material_1: '- Striped textured pocket shirt',
+    material_2: '- Collar neckline',
+    material_3: '- Regular fit',
+    material_4: '- Button fastening',
+    material_5: '- Viscose',
+    store: 'BLACKPINK'
 
   },
   {
@@ -44,7 +53,16 @@ const data = [
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
     category: 'pakaian',
-    cat:'wanita'
+    cat:'wanita',
+    brand: 'Vogue',
+    type: 'Oversize Black-Jacket',
+    price: 400000,
+    material_1: '- Striped textured pocket shirt',
+    material_2: '- Collar neckline',
+    material_3: '- Regular fit',
+    material_4: '- Button fastening',
+    material_5: '- Viscose',
+    store: 'BLACKPINK'
 
   },
   {
@@ -57,31 +75,60 @@ const data = [
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
     category: 'pakaian',
-    cat:'wanita'
+    cat:'wanita',
+    brand: 'Vogue',
+    type: 'Oversize Black-Jacket',
+    price: 400000,
+    material_1: '- Striped textured pocket shirt',
+    material_2: '- Collar neckline',
+    material_3: '- Regular fit',
+    material_4: '- Button fastening',
+    material_5: '- Viscose',
+    store: 'BLACKPINK'
 
   },
   {
     id: '5',
     productName: 'Dress',
-    image_url: 'https://dynamic.zacdn.com/juK3GMj35N41sFQoveidLojmGiU=/fit-in/236x345/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-7972-4642261-1.jpg',
-    image_url2: 'https://dynamic.zacdn.com/0DQB1hv1nMeR4syR3UD26aKWOjA=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-7972-4642261-2.jpg',
+    image_url: 'https://dynamic.zacdn.com/iNpnUstN-K7Z1ap0CB5clZa_tsc=/fit-in/236x345/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/noa-everyday-1387-0250791-4.jpg',
+    image_url2: 'https://dynamic.zacdn.com/44P_9HJm4ihTRdQllwG-Bnw2kII=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/noa-everyday-1387-0250791-2.jpg',
+    image_url3: 'https://dynamic.zacdn.com/kq7FxcutgMamlonKIw9bVEB3N6Q=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/noa-everyday-1386-0250791-1.jpg',
+    image_url4: 'https://dynamic.zacdn.com/aZiLaU8sLQcO9cKDfObrIjF-j7g=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/noa-everyday-1387-0250791-3.jpg',
     productPrice: 'Rp 295.000',
     description: `Lorem ipsum dolor sit amet`,
     category: 'pakaian',
-    cat:'wanita'
+    cat:'wanita',
+    brand: 'Vogue',
+    type: 'Oversize Black-Jacket',
+    price: 400000,
+    material_1: '- Striped textured pocket shirt',
+    material_2: '- Collar neckline',
+    material_3: '- Regular fit',
+    material_4: '- Button fastening',
+    material_5: '- Viscose',
+    store: 'BLACKPINK'
 
   },
   {
     id: '6',
     productName: 'Dress',
-    image_url: 'https://dynamic.zacdn.com/0L9wvn0o3OuOfgNYCYMteUD64TU=/fit-in/236x345/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-8600-0632261-1.jpg',
-    image_url2: 'https://dynamic.zacdn.com/0mepF5lG9mlb171eM0vP72C9wFE=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-8601-0632261-4.jpg',
+    image_url: 'https://dynamic.zacdn.com/UBL4AdK1eY4bQYDZRS_LtrYKMkU=/fit-in/236x345/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/michaels-collection-3732-3550091-4.jpg',
+    image_url2: 'https://dynamic.zacdn.com/Mboj_5UStbvHuuFr2AysQW68LH4=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/michaels-collection-3731-3550091-1.jpg',
     image_url3: 'https://dynamic.zacdn.com/yNniBJG1hEwg5u0wbMTAodh8V4A=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-8601-0632261-3.jpg',
-    image_url4: 'https://dynamic.zacdn.com/yNniBJG1hEwg5u0wbMTAodh8V4A=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/zalora-8601-0632261-3.jpg',
+    image_url4: 'https://dynamic.zacdn.com/Mboj_5UStbvHuuFr2AysQW68LH4=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/michaels-collection-3731-3550091-1.jpg',
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
     category: 'pakaian',
-    cat:'wanita'
+    cat:'wanita',
+    brand: 'Vogue',
+    type: 'Oversize Black-Jacket',
+    price: 400000,
+    material_1: '- Striped textured pocket shirt',
+    material_2: '- Collar neckline',
+    material_3: '- Regular fit',
+    material_4: '- Button fastening',
+    material_5: '- Viscose',
+    store: 'BLACKPINK'
 
   },
   {
@@ -93,7 +140,16 @@ const data = [
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
     category: 'sepatu',
-    cat:'wanita'
+    cat:'wanita',
+    brand: 'Vogue',
+    type: 'Oversize Black-Jacket',
+    price: 400000,
+    material_1: '- Striped textured pocket shirt',
+    material_2: '- Collar neckline',
+    material_3: '- Regular fit',
+    material_4: '- Button fastening',
+    material_5: '- Viscose',
+    store: 'BLACKPINK'
   },
   {
     id: '8',
@@ -103,7 +159,16 @@ const data = [
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
     category: 'sepatu',
-    cat:'wanita'
+    cat:'wanita',
+    brand: 'Vogue',
+    type: 'Oversize Black-Jacket',
+    price: 400000,
+    material_1: '- Striped textured pocket shirt',
+    material_2: '- Collar neckline',
+    material_3: '- Regular fit',
+    material_4: '- Button fastening',
+    material_5: '- Viscose',
+    store: 'BLACKPINK'
   },
   {
     id: '9',
@@ -113,7 +178,16 @@ const data = [
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
     category: 'sepatu',
-    cat:'wanita'
+    cat:'wanita',
+    brand: 'Vogue',
+    type: 'Oversize Black-Jacket',
+    price: 400000,
+    material_1: '- Striped textured pocket shirt',
+    material_2: '- Collar neckline',
+    material_3: '- Regular fit',
+    material_4: '- Button fastening',
+    material_5: '- Viscose',
+    store: 'BLACKPINK'
   },
   {
     id: '10',
@@ -124,7 +198,16 @@ const data = [
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
     category: 'sepatu',
-    cat:'wanita'
+    cat:'wanita',
+    brand: 'Vogue',
+    type: 'Oversize Black-Jacket',
+    price: 400000,
+    material_1: '- Striped textured pocket shirt',
+    material_2: '- Collar neckline',
+    material_3: '- Regular fit',
+    material_4: '- Button fastening',
+    material_5: '- Viscose',
+    store: 'BLACKPINK'
   },
   {
     id: '11',
@@ -134,7 +217,16 @@ const data = [
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
     category: 'sepatu',
-    cat:'wanita'
+    cat:'wanita',
+    brand: 'Vogue',
+    type: 'Oversize Black-Jacket',
+    price: 400000,
+    material_1: '- Striped textured pocket shirt',
+    material_2: '- Collar neckline',
+    material_3: '- Regular fit',
+    material_4: '- Button fastening',
+    material_5: '- Viscose',
+    store: 'BLACKPINK'
   },
   {
     id: '12',
@@ -144,7 +236,16 @@ const data = [
     productPrice: 'Rp 129.500',
     description: `Lorem ipsum dolor sit amet`,
     category: 'sepatu',
-    cat:'wanita'
+    cat:'wanita',
+    brand: 'Vogue',
+    type: 'Oversize Black-Jacket',
+    price: 400000,
+    material_1: '- Striped textured pocket shirt',
+    material_2: '- Collar neckline',
+    material_3: '- Regular fit',
+    material_4: '- Button fastening',
+    material_5: '- Viscose',
+    store: 'BLACKPINK'
   }
 
 ]
