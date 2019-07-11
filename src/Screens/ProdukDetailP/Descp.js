@@ -1,6 +1,6 @@
 import React from 'react'
-import './Desc.css'
-import Data from '../../data/dataMen'
+import './Descp.css'
+import Data from '../../data/dataWomen'
 
 export default function Desc (props) {
   let data = Data.find((item) => props.id === item.id)

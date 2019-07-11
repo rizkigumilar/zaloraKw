@@ -1,8 +1,8 @@
 import React from 'react'
-import './foto.css'
-import Deskripsi from './Desc'
-import Data from '../../data/dataMen'
-import Order from './order'
+import './fotop.css'
+import Deskripsi from '../ProdukDetailP/Descp'
+import Data from '../../data/dataWomen'
+import Order from '../ProdukDetailP/orderp'
 
 function myFunction (smallimg) {
   var fullimg = document.getElementById('imageBox')
