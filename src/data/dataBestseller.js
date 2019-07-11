@@ -78,7 +78,7 @@ const data = [
     // },
     {
         id: "7",
-        productName: "item 7",
+        productName: "High Heels",
         image_url: "https://dynamic.zacdn.com/fGZYd0-NEnpA29SwF1uagsPXZ_Y=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/pavillion-9128-7882461-1.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
@@ -110,7 +110,7 @@ const data = [
     // },
     {
         id: "11",
-        productName: "item 11",
+        productName: "Sneakers",
         image_url: "https://dynamic.zacdn.com/-KemtgwowdiRRnyKvkvSTm0S4WE=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/homyped-7807-7836571-1.jpg",
         productPrice: "Rp 129.500",
         description: `Lorem ipsum dolor sit amet`,
