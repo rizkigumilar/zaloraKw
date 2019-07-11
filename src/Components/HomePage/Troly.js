@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 class Troly extends Component {
 	render() {
 		return (
-				<div><img
+				<div><a href="/Checkout"><img
 					src="https://png.pngtree.com/png-vector/20190425/ourlarge/pngtree-vector-shopping-bag-icon-png-image_987256.jpg"				
 					style={{
 						width: '35px',
@@ -10,7 +10,7 @@ class Troly extends Component {
 						marginTop: '6px',
 						marginLeft: '20px',
 					}}
-				/>
+				/></a>
 				</div>
 		);
 	}

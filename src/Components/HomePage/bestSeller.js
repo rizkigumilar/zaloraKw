@@ -32,12 +32,11 @@ export default class BestSeller extends Component {
           placeholderItem={
             <div className="container">{data.map(item => {
               return (
-                <Link to={`/detail/${item.id}`}>
+                <Link to={`women/detail/${item.id}`}>
                   <div className="item" id="items" productid={item.id}>
                     <img src={item.image_url} alt="gambar" />
                     <div>
                       <p className="barang">{item.productName}</p>
-                      <p className="desc">{item.description}</p>
                       <p className="harga">{item.productPrice}</p>
                     </div>
                   </div>

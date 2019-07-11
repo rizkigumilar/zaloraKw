@@ -19,12 +19,11 @@ function listMen() {
                         cari.map(
                             item => {
                                 return (
-                                    <Link to={`/women/detail/${item.id}`}>
+                                    <Link to={`/men/detail/${item.id}`}>
                                         <div className="item" id="items" productid={item.id}>
                                             <img src={item.image_url} alt="gambar" />
                                             <div>
                                                 <p className="barang">{item.productName}</p>
-                                                <p className="desc">{item.description}</p>
                                                 <p className="harga">{item.productPrice}</p>
                                             </div>
                                         </div>
@@ -47,9 +46,21 @@ function listMen() {
                     </li>
 
                     <li style={{ paddingTop: '20px' }}>
-                        <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Tas</a>
+                    <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Tas</a>
                     </li>
-                </ul>
+                    <li style={{ paddingTop: '20px' }}>
+                        <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Celana</a>
+                    </li>
+                    <li style={{ paddingTop: '20px' }}>
+                        <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Jam</a>
+                    </li>
+                    <li style={{ paddingTop: '20px' }}>
+                        <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Assesoris</a>
+                    </li>
+                    <li style={{ paddingTop: '20px' }}>
+                        <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Batik</a>
+                    </li>
+                    </ul>
             </div>
         </div>
     )

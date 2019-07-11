@@ -9,6 +9,7 @@ class Search extends Component {
 					height: '30px',
 					float:'left',
 					marginRight: '10px',
+					paddingTop:'5px'
 				}}
 			/>
 		);
