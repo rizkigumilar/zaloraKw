@@ -24,7 +24,6 @@ function listWomen() {
                                             <img src={item.image_url} alt="gambar" />
                                             <div>
                                                 <p className="barang">{item.productName}</p>
-                                                <p className="desc">{item.description}</p>
                                                 <p className="harga">{item.productPrice}</p>
                                             </div>
                                         </div>
@@ -49,6 +48,21 @@ function listWomen() {
                 <li style={{ paddingTop: '20px' }}>
                     <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Tas</a>
                 </li>
+                <li style={{ paddingTop: '20px' }}>
+                <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Tas</a>
+            </li>
+            <li style={{ paddingTop: '20px' }}>
+                  <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Celana</a>
+            </li>
+            <li style={{ paddingTop: '20px' }}>
+                <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Jam</a>
+            </li>
+            <li style={{ paddingTop: '20px' }}>
+                <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Assesoris</a>
+            </li>
+            <li style={{ paddingTop: '20px' }}>
+                <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Batik</a>
+            </li>
             </ul>
         </div>
         </div>
