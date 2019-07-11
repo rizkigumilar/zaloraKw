@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 export default class Highlight extends Component{
     render() {
 		return (
-            <div style={{border:'2px solid'}}>
+            <div style={{ marginLeft: '20px', marginRight: '25px' }}>
             <h1 style={{ textAlign: 'center',
             fontFamily: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
             fontSize: "40px"}}>Now Trendings</h1>

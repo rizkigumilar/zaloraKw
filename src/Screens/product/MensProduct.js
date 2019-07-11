@@ -33,22 +33,20 @@ function listMen() {
                 </div>
             </div>
             <div className="sidebar">
-            <h4>KATEGORI</h4>
-                <label className="container">Pakaian
-                    <input type="checkbox" checked="checked" />
-                    <span className="checkmark"></span>
-                </label>
+                <h4 style={{ textAlign: 'center' }}>KATEGORI</h4>
+                <ul style={{ listStyleType: 'none', }}>
+                    <li style={{ paddingTop: '40px' }}>
+                        <a href='/men/pakaian' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Pakaian</a>
+                    </li>
 
-                <label className="container">Sepatu
-                    <input type="checkbox" />
-                    <span className="checkmark"></span>
-                </label>
+                    <li style={{ paddingTop: '20px' }}>
+                        <a href='/men/sepatu' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Sepatu</a>
+                    </li>
 
-                <label className="container">Tas
-                    <input type="checkbox" />
-                    <span className="checkmark"></span>
-                </label>
-
+                    <li style={{ paddingTop: '20px' }}>
+                        <a href='#' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Tas</a>
+                    </li>
+                </ul>
             </div>
         </div>
     )
