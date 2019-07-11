@@ -26,7 +26,7 @@ export default function foto (props) {
         <Deskripsi id={props.match.params.id} />
       </div>
       <div>
-        <Order />
+        <Order id={props.match.params.id} cat={data.cat}/>
       </div>
     </div>
   )

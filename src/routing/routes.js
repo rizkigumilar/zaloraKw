@@ -17,7 +17,7 @@ import catlistwomen from '../Screens/product/FilterPakaianWomen'
 import catlistwomen2 from '../Screens/product/FilterSepatuWoman'
 import catlistmen from '../Screens/product/FilterPakaianPria'
 import catlistmen2 from '../Screens/product/FilterSepatuPria'
-
+import Troly from '../Screens/Troly/Troly'
 class Routing extends Component {
   render () {
     return (
@@ -39,6 +39,7 @@ class Routing extends Component {
                 <Route path='/profile' component={Profile} />
                 <Route exact path='/profile' component={Akun} />
                 <Route path='/profile/akun' component={Akun} />
+                <Route exact path='/Checkout' component={Troly} />
                 <Route path='/profile/maintanance' component={Maintanance} />
             </Router>
         )
