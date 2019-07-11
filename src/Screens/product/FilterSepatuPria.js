@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../Assets/product.css'
-import Data from '../../data/dataWomen'
+import Data from '../../data/dataMen'
 
 
-function listWomen() {
+function listMen() {
     let data = Data
+    let cari = data.filter(item => {
+        return item.category === 'sepatu';
+    });
     console.log(data)
 
     return (
@@ -13,7 +16,7 @@ function listWomen() {
             <div className="list">
                 <div className="list-item">
                     {
-                        data.map(
+                        cari.map(
                             item => {
                                 return (
                                     <Link to={`/women/detail/${item.id}`}>
@@ -36,11 +39,11 @@ function listWomen() {
                 <h4 style={{ textAlign: 'center' }}>KATEGORI</h4>
                 <ul style={{ listStyleType: 'none', }}>
                     <li style={{ paddingTop: '40px' }}>
-                        <a href='/women/pakaian' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Pakaian</a>
+                        <a href='/men/pakaian' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Pakaian</a>
                     </li>
 
                     <li style={{ paddingTop: '20px' }}>
-                        <a href='/women/sepatu' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Sepatu</a>
+                        <a href='/men/sepatu' style={{ textDecoration: 'none', color: 'black', outline: 'none' }}>Sepatu</a>
                     </li>
 
                     <li style={{ paddingTop: '20px' }}>
@@ -53,4 +56,4 @@ function listWomen() {
 }
 
 
-export default listWomen
+export default listMen

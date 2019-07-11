@@ -1,4 +1,5 @@
 const data = [
+
   {
     id: '1',
     productName: 'item 4',
@@ -198,7 +199,7 @@ const data = [
     productPrice: 'Rp 900.000',
     description: `Lorem ipsum dolor sit amet`,
     category: 'pria',
-    brand: 'Osella',
+    brand: 'Osella',  
     type: 'Short-sleeved shirt',
     price: 907000,
     material_1: '- Striped textured pocket shirt',
@@ -250,7 +251,7 @@ const data = [
     material_5: '- Viscose',
     store: 'ZALORA'
 
-  }
+  } 
 ]
 
 export default data

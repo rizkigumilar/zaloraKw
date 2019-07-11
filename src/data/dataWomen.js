@@ -1,4 +1,5 @@
 const data = [
+
   {
     id: '1',
     productName: 'Vogue- Oversize Jacket',
@@ -126,6 +127,7 @@ const data = [
     description: `Lorem ipsum dolor sit amet`,
     category: 'wanita'
   }
+
 ]
 
 export default data
