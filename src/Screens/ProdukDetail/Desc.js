@@ -56,12 +56,6 @@ export default function Desc (props) {
         <p>CEK ESTIMASI PENGIRIMAN</p>
         <br />
         <input type='text' id='search' placeholder='Masukan kota di sini' />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </div>
     </div>
   )

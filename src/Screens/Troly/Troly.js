@@ -3,18 +3,19 @@ import DataL from '../../data/dataMen'
 import DataW from '../../data/dataWomen'
 import './Troly.css'
 function findL(id,cat){
-     let data = DataL.find((item)=> item.id===id && item.category===cat)
+     let data = DataL.find((item)=> item.id===id && item.cat===cat)
      return data
 }
 
 function findW(id,cat){
-    let data = DataW.find((item)=> item.id===id && item.category===cat)
+    let data = DataW.find((item)=> item.id===id && item.cat===cat)
     return data
 }
 
 function Troly(props){
 	let dataCowo = findL(props.location.id,props.location.category)
 	let dataCewe = findW(props.location.id,props.location.category)
+	console.log(props.location.id)
 	let dataReal = dataCowo ? dataCowo : dataCewe
 	let harga = dataReal.price;	
 	let viewHarga = String (harga)
@@ -71,7 +72,7 @@ function Troly(props){
 					<div style={{ paddingTop: '30px' }}>
 						<img
 							style={{ width: '15%', float: 'left' }}
-							src="https://dynamic.zacdn.com/VqNIprAF4HxZLVp7vX9UFJzFhG8=/fit-in/346x500/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/osella-2936-9373271-2.jpg"
+							src={dataReal.image_url}
 						/>
 
 						<li style={{ float: 'left',paddingLeft:'20px', paddingBottom: '20px', paddingRight: '200px',}}>
