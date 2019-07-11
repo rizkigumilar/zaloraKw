@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import '../chekout/address.css'
 
 export default function address () {
@@ -30,7 +31,7 @@ export default function address () {
       <br />
       <br />
       <div className='button'>
-        <button className='save'>SIMPAN & LANJUTKAN</button>
+      <Link to='/Checkout/process/payment'> <button className='save'>SIMPAN & LANJUTKAN</button></Link>
       </div>
       <br />
       <br />

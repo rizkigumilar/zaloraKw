@@ -18,7 +18,9 @@ import catlistwomen2 from '../Screens/product/FilterSepatuWoman'
 import catlistmen from '../Screens/product/FilterPakaianPria'
 import catlistmen2 from '../Screens/product/FilterSepatuPria'
 import Troly from '../Screens/Troly/Troly'
-
+import Address from '../chekout/address'
+import Payment from '../chekout/payment'
+import Done from '../chekout/final'
 class Routing extends Component {
   render () {
     return (
@@ -41,6 +43,9 @@ class Routing extends Component {
                 <Route exact path='/profile' component={Akun} />
                 <Route path='/profile/akun' component={Akun} />
                 <Route exact path='/Checkout' component={Troly} />
+                <Route exact path='/Checkout/process' component={Address} />
+                <Route exact path='/Checkout/process/payment' component={Payment} />
+                <Route exact path='/Checkout/process/done' component={Done} />
                 <Route path='/profile/maintanance' component={Maintanance} />
             </Router>
         )
