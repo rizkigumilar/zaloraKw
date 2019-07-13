@@ -28,5 +28,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 Link https://hardcore-poincare-713927.netlify.com
 
 ### Contributor 
-https://github.com/rizkigumilar
+https://github.com/rizkigumilar <br>
 https://github.com/Arizal-Arkan
