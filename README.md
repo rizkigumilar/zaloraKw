@@ -1,8 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+# Zalora Clone
 
 ### `npm start`
 
@@ -30,3 +26,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Deployment
 
 Link https://hardcore-poincare-713927.netlify.com
+
+### Contributor 
+https://github.com/rizkigumilar
+https://github.com/Arizal-Arkan
